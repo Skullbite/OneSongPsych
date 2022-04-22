@@ -81,6 +81,12 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['One Song Psych Dev'],
+			['Skullbite',           'skullbite',        'Did the coding and stuff',                                 'https://skellypupper.dev',             'AF7132'],
+			[''],
+			['One Song Psych Extra'],
+			['The Zardy Team',      'zardy',            'They made the "play" button\nGo play Vs Zardy!',           'https://gamebanana.com/mods/44366',    'BA7B42'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],

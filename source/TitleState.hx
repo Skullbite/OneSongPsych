@@ -179,10 +179,10 @@ class TitleState extends MusicBeatState
 			//trace('LOADED FULLSCREEN SETTING!!');
 		}
 
-		if (FlxG.save.data.weekCompleted != null)
+		/*if (FlxG.save.data.weekCompleted != null)
 		{
 			StoryMenuState.weekCompleted = FlxG.save.data.weekCompleted;
-		}
+		}*/
 
 		FlxG.mouse.visible = false;
 		#if FREEPLAY

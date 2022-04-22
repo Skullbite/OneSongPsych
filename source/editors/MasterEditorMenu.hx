@@ -21,7 +21,6 @@ using StringTools;
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Week Editor',
 		'Menu Character Editor',
 		'Dialogue Editor',
 		'Dialogue Portrait Editor',
@@ -115,8 +114,6 @@ class MasterEditorMenu extends MusicBeatState
 			switch(options[curSelected]) {
 				case 'Character Editor':
 					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
-				case 'Week Editor':
-					MusicBeatState.switchState(new WeekEditorState());
 				case 'Menu Character Editor':
 					MusicBeatState.switchState(new MenuCharacterEditorState());
 				case 'Dialogue Portrait Editor':
@@ -127,9 +124,9 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
 			}
 			FlxG.sound.music.volume = 0;
-			#if PRELOAD_ALL
+			/*#if PRELOAD_ALL
 			FreeplayState.destroyFreeplayVocals();
-			#end
+			#end*/
 		}
 		
 		var bullShit:Int = 0;

@@ -217,17 +217,17 @@ class Paths
 		return file;
 	}
 
-	inline static public function voices(song:String):Any
+	inline static public function voices():Any
 	{
-		var songKey:String = '${song.toLowerCase().replace(' ', '-')}/Voices';
-		var voices = returnSound('songs', songKey);
+		var songKey:String = 'Voices';
+		var voices = returnSound('song', songKey);
 		return voices;
 	}
 
-	inline static public function inst(song:String):Any
+	inline static public function inst():Any
 	{
-		var songKey:String = '${song.toLowerCase().replace(' ', '-')}/Inst';
-		var inst = returnSound('songs', songKey);
+		var songKey:String = 'Inst';
+		var inst = returnSound('song', songKey);
 		return inst;
 	}
 
