@@ -4,7 +4,7 @@ A (somewhat) less bloated way for source modders (in this specific situation) to
 
 
 ## Usage
-- Instead than putting your instrumental and vocals in `assets/songs/<song-name>`, you just put them in `assets/song`.
+- Rather than putting your instrumental and vocals in `assets/songs/<song-name>`, you just put them in `assets/song`.
 - Your chart goes straight into `assets/preload/data` named as "song" (i.e song.json)
 - Events also go in `assets/preload/data`.
 
